@@ -1,0 +1,38 @@
+nav{
+    display: inline-block;  
+}
+h1{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+section{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+#whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#whatsapp-button img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+#whatsapp-button img:hover {
+    transform: scale(1.1);
+}
+#whatsapp-button img:focus {
+    transform: scale(1.0);
+}
+
