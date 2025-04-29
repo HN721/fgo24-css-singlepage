@@ -1,4 +1,4 @@
-# ChessBoard
+# HISTORY
 
 This repository creates a Single Page to shows a history of World War and adding buttton to contact us
 
